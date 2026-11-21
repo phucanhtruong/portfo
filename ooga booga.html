@@ -1,0 +1,80 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Trương Anh Phúc</title>
+</head>
+<body>
+
+<h1>Trương Anh Phúc (<a href="https://ptnk.edu.vn/" target="_blank">ptnk 22-25</a>, <a href="https://hcmut.edu.vn/" target="_blank">bkhcm 25-29</a>)</h1>
+
+<br><br>
+
+Xin chào, mình là <a href="https://www.facebook.com/PhcTrng" target="_blank">Phúc Trương</a>
+
+<br><br>
+
+Mình hiện là sinh viên năm 2 ngành <a href="https://cse.hcmut.edu.vn/en/nganh-khoa-hoc-may-tinh" target="_blank">CS</a>, BKHCM
+
+<br><br>
+
+Mình có một (số) <a href="project/">project</a>, còn đây là <a href="https://github.com/phucanhtruong" target="_blank">github</a>.
+
+<br><br>
+
+<div style="display:flex;justify-content:space-around;align-items:center;">
+    <figure style="margin:10px;">
+        <img src="1.jpg" width="450" alt="[GROUP PHOTO]">
+        <figcaption style="text-align:center;">Đi quân sự</figcaption>
+    </figure>
+    <figure style="margin:10px;">
+        <img src="2.jpg" width="300" style="height:300px; margin-left:24px; object-fit:cover; object-position:center 40%;" alt="[FISH TANK]">
+        <figcaption style="text-align:center;">cá bơi bơi</figcaption>
+    </figure>
+    <figure style="margin:10px;">
+        <img src="3.jpg" width="300" alt="[IMAGE WITH QUOTE]">
+        <figcaption style="text-align:center;">triết học</figcaption>
+    </figure>
+</div>
+
+<br style="clear:both">
+
+<br><br><br><br>
+
+<h3>Chứng chỉ:</h3>
+<ol>
+    <li>IELTS Academic — 7.5 (R8 - L9 - S6.5 - W7) — TRFM: 26VN500222TRUA101A</li>
+</ol>
+
+<br><br>
+
+<h3>Sở thích:</h3>
+Mình có đọc sách (rất ít), những cuốn đang có trên kệ ngay lúc này là: <br>
+<a href="https://en.wikipedia.org/wiki/Thinking,_Fast_and_Slow" target="_blank">Tư duy nhanh và chậm</a>,
+<a href="https://en.wikipedia.org/wiki/Ticket_to_Childhood" target="_blank">Cho tôi xin một vé đi tuổi thơ</a>,
+<a href="https://en.wikipedia.org/wiki/The_Sorrow_of_War" target="_blank">Nỗi buồn chiến tranh</a>,
+và 9 cuốn <a href="https://en.wikipedia.org/wiki/Spice_and_Wolf" target="_blank">Sói và gia vị</a>. <br>
+Ngoài ra mình còn chơi cá, <a href="#" onclick="openPhoto(event)">astrophotography</a> và <a href="https://lichess.org/@/PhcTrg16" target="_blank">oánh cờ</a>.
+
+<div id="photo-popup" onclick="closePhoto()" style="display:none; position:fixed; inset:0; z-index:10; background:rgba(0,0,0,.85); align-items:center; justify-content:center;">
+    <button onclick="closePhoto()" style="position:absolute; top:20px; right:28px; font-size:36px; color:white; background:none; border:0; cursor:pointer;" aria-label="Close">&times;</button>
+    <img src="astrop.jpg" alt="Ảnh thiên văn" onclick="event.stopPropagation()" style="max-width:90vw; max-height:90vh;">
+</div>
+
+<script>
+function openPhoto(event) {
+    event.preventDefault();
+    document.getElementById('photo-popup').style.display = 'flex';
+}
+function closePhoto() {
+    document.getElementById('photo-popup').style.display = 'none';
+}
+document.addEventListener('keydown', function(event) {
+    if (event.key === 'Escape') closePhoto();
+});
+</script>
+<br><br>
+
+<h3>Liên hệ:</h3> phucanhtruongz@gmail.com
+
+</body>
+</html>
